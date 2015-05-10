@@ -8,7 +8,6 @@ public class UserInfoEmptyException extends Exception{
         super(msg);
     }
 
-    //异常链
     public UserInfoEmptyException(String msg, Throwable cause){
         super(msg, cause);
     }

@@ -5,4 +5,5 @@
 <%@ include file="header.jsp" %>
 Welcome to my world!
 
+<a href="<c:url value='/test-response' />">test-response</a>
 <%@ include file="footer.jsp" %>
