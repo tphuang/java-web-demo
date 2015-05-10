@@ -1,0 +1,126 @@
+* {
+    font-family: Helvetica;
+}
+
+body {
+    padding: 20px 0px;
+    width: 960px;
+    margin: 0 auto;
+}
+.header{
+    margin: 0 10%;
+}
+
+.footer{
+    margin: 0 35%;
+}
+
+.content{
+    margin: 0 auto;
+}
+.center {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+
+.brand {
+    display: inline-block;
+    font-size: 14pt;
+}
+
+.nav {
+    display: inline-block;
+    float: right;
+}
+
+.nav li {
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+a:link { color: blue; }
+a:visited { color: black; }
+a:hover { color: grey; }
+a:active { color: gray; }
+
+.error {
+    background-color: indianred;
+}
+
+
+form label {
+    display: inline-block;
+    width: 10em;
+}
+
+.controls {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+form input[type=text],[type=password] {
+    padding: 4px;
+    width: 14em;
+    font-size: 12pt;
+}
+
+select {
+    border: 1px solid gray;
+    padding: 2px;
+    font-size: 12pt;
+}
+
+button {
+    font-size: 12pt;
+    padding: 5px;
+}
+
+table th {
+    width: 100px;
+    text-align: left;
+}
+
+table {
+    border-spacing: 4px;
+    border-collapse: separate;
+}
+
+.text-error {
+    color: indianred;
+}
+
+.sucess-message{
+    color: green;
+    margin-bottom: 5px;
+}
+
+table tr{
+    border-bottom: 1px solid #000;
+}
+
+.action-item{
+    float: right;
+    margin-right: 5px;
+}
+
+form#book input[type=text]{
+    width: 22em;
+}
+
+.content-container{
+    margin: 0 auto;
+}
+
+.content.user-pages{
+    width: 50%;
+}
