@@ -3,15 +3,16 @@
  */
 
 $(document).ready(function() {
+    var webRoot = 'http://localhost:8081/java-web-demo';
     $("#profile").click(function() {
-        profile();
+        profile(webRoot);
     });
     $("#login").click(function() {
-        login();
+        login(webRoot);
     });
 });
-function profile() {
-    var url = 'http://localhost:8080/spring-json/json/person/profile/';
+function profile(webRoot) {
+    var url = webRoot + '/person/profile/';
     var query = $('#id').val() + '/' + $('#name').val() + '/'
         + $('#status').val();
     url += query;
@@ -21,14 +22,14 @@ function profile() {
         + data.status);
     });
 }
-function login() {
+function login(webRoot) {
     var mydata = '{"name":"' + $('#name').val() + '","id":"'
         + $('#id').val() + '","status":"' + $('#status').val() + '"}';
     alert(mydata);
     $.ajax({
         type: 'POST',
         contentType: 'application/json',
-        url: 'http://localhost:8080/spring-json/json/person/login',
+        url: webRoot + '/person/login',
         processData: false,
         dataType: 'json',
         data: mydata,

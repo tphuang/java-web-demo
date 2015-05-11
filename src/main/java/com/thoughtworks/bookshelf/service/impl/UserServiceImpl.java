@@ -1,16 +1,16 @@
 package com.thoughtworks.bookshelf.service.impl;
 
 
-import com.thoughtworks.bookshelf.dao.UserDao;
-import com.thoughtworks.bookshelf.model.User;
-import com.thoughtworks.bookshelf.service.UserService;
-import com.thoughtworks.bookshelf.util.UserInfoEmptyException;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import com.thoughtworks.bookshelf.dao.UserDao;
+import com.thoughtworks.bookshelf.entity.User;
+import com.thoughtworks.bookshelf.service.UserService;
+import com.thoughtworks.bookshelf.util.UserInfoEmptyException;
 
 @Component
 public class UserServiceImpl implements UserService {

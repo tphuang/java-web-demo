@@ -1,6 +1,6 @@
 package com.thoughtworks.bookshelf.dao;
 
-import com.thoughtworks.bookshelf.model.User;
+import com.thoughtworks.bookshelf.entity.User;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;

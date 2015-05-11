@@ -1,6 +1,6 @@
 package com.thoughtworks.bookshelf.service;
 
-import com.thoughtworks.bookshelf.model.User;
+import com.thoughtworks.bookshelf.entity.User;
 import com.thoughtworks.bookshelf.util.UserInfoEmptyException;
 
 import java.sql.SQLException;

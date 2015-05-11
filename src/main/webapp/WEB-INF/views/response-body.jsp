@@ -11,15 +11,15 @@
     </tr>
     <tr>
         <td>name</td>
-        <td><input id="name" value="snowolf" /></td>
+        <td><input id="name" value="sownWolf" /></td>
     </tr>
     <tr>
         <td>status</td>
         <td><input id="status" value="true" /></td>
     </tr>
     <tr>
-        <td><input type="button" id="profile" value="Profile——GET" /></td>
-        <td><input type="button" id="login" value="Login——POST" /></td>
+        <td><input type="button" id="profile" value="Profile-GET" /></td>
+        <td><input type="button" id="login" value="Login-POST" /></td>
     </tr>
 </table>
 

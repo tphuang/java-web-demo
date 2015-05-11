@@ -1,6 +1,6 @@
 package com.thoughtworks.bookshelf.controller;
 
-import com.thoughtworks.bookshelf.model.User;
+import com.thoughtworks.bookshelf.entity.User;
 import com.thoughtworks.bookshelf.service.UserService;
 import com.thoughtworks.bookshelf.util.UserInfoEmptyException;
 import org.springframework.beans.factory.annotation.Autowired;

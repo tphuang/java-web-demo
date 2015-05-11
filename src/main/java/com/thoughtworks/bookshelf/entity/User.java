@@ -1,4 +1,4 @@
-package com.thoughtworks.bookshelf.model;
+package com.thoughtworks.bookshelf.entity;
 
 import javax.persistence.*;
 

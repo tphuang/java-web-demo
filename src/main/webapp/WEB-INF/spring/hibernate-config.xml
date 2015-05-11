@@ -39,7 +39,7 @@
         <!-- 注解方式配置 -->
         <property name="packagesToScan">
             <list>
-                <value>com.thoughtworks.bookshelf.model</value>
+                <value>com.thoughtworks.bookshelf.entity</value>
             </list>
         </property>
     </bean>
