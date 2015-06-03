@@ -43,7 +43,7 @@ public class TestJSONClient {
         String get = HttpHelper.getResponseWithHttpGet(handleProfileUrl());
 
         String params = "{'id':'20','name':'Helen','status':'true'}";
-        String post = HttpHelper.getResponseWithHttpPost(handleHttpPost(webRoot + "login", params));
+        String post = HttpHelper.getResponseWithHttpPost(handleHttpPost(webRoot + "login.do", params));
 
         System.out.println("The get is: " + get);
         System.out.println("The post is: " + post);

@@ -13,7 +13,7 @@
     <mvc:view-controller path="/" view-name="home"/>
     <mvc:resources mapping="/scripts/**" location="/scripts/"/>
     <mvc:resources mapping="/style/**" location="/style/"/>
-    <mvc:resources mapping="/images/**" location="/images/"/>
+    <!--<mvc:resources mapping="/images/**" location="/images/"/>-->
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/views/"/>

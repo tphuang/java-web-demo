@@ -1,14 +1,14 @@
 package com.thoughtworks.bookshelf.dao;
 
-import com.thoughtworks.bookshelf.entity.User;
+import java.util.ArrayList;
+import java.util.List;
+import javax.transaction.Transactional;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
-import javax.transaction.Transactional;
-import java.util.ArrayList;
-import java.util.List;
+import com.thoughtworks.bookshelf.entity.User;
 
 @Component
 @Transactional

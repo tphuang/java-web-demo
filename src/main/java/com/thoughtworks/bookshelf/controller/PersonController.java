@@ -21,7 +21,7 @@ public class PersonController {
      * @param id
      * @return
      */
-    @RequestMapping(value = "profile/{id}/{name}/{status}", method = RequestMethod.GET)
+    @RequestMapping(value = "myprofile/{id}/{name}/{status}", method = RequestMethod.GET)
     public @ResponseBody Person profile(@PathVariable int id, @PathVariable String name,
                    @PathVariable boolean status) {
         Person person = new Person(id, name, status);
@@ -33,7 +33,7 @@ public class PersonController {
      * @param request
      * @return
      */
-    @RequestMapping(value = "myprofile", method = RequestMethod.GET)
+    @RequestMapping(value = "profile", method = RequestMethod.GET)
     public @ResponseBody String getProfile(HttpServletRequest request){
         int id = Integer.parseInt(request.getParameter("id"));
         String name = request.getParameter("name");
